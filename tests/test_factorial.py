@@ -2,7 +2,7 @@
 """Factorial Module Tests"""
 
 import unittest
-from factorial import factorial
+from operations.factorial import factorial
 
 class TestFactorial(unittest.TestCase):
     """Factorial Module Test Cases"""
