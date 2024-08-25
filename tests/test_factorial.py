@@ -4,6 +4,7 @@
 import unittest
 from operations.factorial import factorial
 
+
 class TestFactorial(unittest.TestCase):
     """Factorial Module Test Cases"""
 
@@ -26,7 +27,7 @@ class TestFactorial(unittest.TestCase):
         start_time = time.time()
         factorial(100)
         end_time = time.time()
-        self.assertTrue((end_time - start_time) < 1, 
+        self.assertTrue((end_time - start_time) < 1,
                         "Performance test failed: took too long.")
 
 
